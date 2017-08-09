@@ -20,9 +20,7 @@ class ArticlesController < ApplicationController
       redirect_to article_path(@article)
     else
       render "new"
-
     end
-
   end
 
   def update
@@ -40,6 +38,12 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id])
   end
 
+  def destroy
+    @article = Article.find(params[:id])
+    @article.destroy
+    flash[:notice] =  "Article was deleted"
+    redirect_to articles_path
+  end
 
 
 
