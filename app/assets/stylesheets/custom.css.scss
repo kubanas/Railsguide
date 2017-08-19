@@ -39,6 +39,18 @@ $navbar-default-bg: black;
   text-transform: uppercase;
 }
 
+.btn-lg {
+  background-color: black;
+  color: white;
+  border: 0;
+}
+
+.btn-lg:hover {
+  background-color: grey;
+}
+
+
+
 .btn-xlg {
   font-size: 1.7em;
   background-color:  white;
