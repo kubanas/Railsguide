@@ -29,6 +29,7 @@ gem 'jbuilder', '2.5.0'
 # gem 'bcrypt', '~> 3.1.7'
 #Use Twitter's Bootstrap to style
 gem "bootstrap-sass", "3.3.7"
+
 #Use Hirb for better database display
 gem "hirb", "0.7.3"
 #Use Devise for user autethicion
